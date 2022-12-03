@@ -1,9 +1,9 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"os"
+
+	"github.com/RolloCasanova/AdventOfCode2022/utils/file"
 )
 
 const (
@@ -56,23 +56,10 @@ var (
 )
 
 func main() {
-	// open file to read
-	file, err := os.Open("./Day02/input.txt")
+	input, err := file.ToStringArray("./Day02/input.txt")
 	if err != nil {
 		panic(err)
 	}
-
-	fileScanner := bufio.NewScanner(file)
-	fileScanner.Split(bufio.ScanLines)
-
-	var input []string
-
-	for fileScanner.Scan() {
-		input = append(input, fileScanner.Text())
-	}
-
-	// don't forget to close file
-	defer file.Close()
 
 	// store strategy score
 	var score1, score2 int
@@ -87,5 +74,4 @@ func main() {
 
 	// Part Two - get total score with new strategy
 	fmt.Println("Part Two:", score2)
-
 }

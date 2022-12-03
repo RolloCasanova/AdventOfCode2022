@@ -6,14 +6,15 @@ This repository contains my solutions to the [Advent of Code 2022](https://adven
 
 ## Tracking
 
-| Challenge | Part 1 | Part 2 |
-| --- | :-: | :-: |
-| [Day 1: Calorie Counting](https://adventofcode.com/2022/day/1) | :star: | :star: |
-| [Day 2: Rock Paper Scissors](https://adventofcode.com/2022/day/2) | :star: | :star: |
+| Challenge | Solution | Part 1 | Part 2 |
+| --- | :-: | :-: | :-: |
+| [Day 01: Calorie Counting](https://adventofcode.com/2022/day/1) | [Day01](Day01/main.go) | :star: | :star: |
+| [Day 02: Rock Paper Scissors](https://adventofcode.com/2022/day/2) | [Day02](Day02/main.go) | :star: | :star: |
+| [Day 03: Rucksack Reorganization](https://adventofcode.com/2022/day/3) | [Day03](Day03/main.go) | :star: | :star: |
 
 ## Usage
 
-To run the solutions, you need to run the main file for any given day; i.e. to run the solution for day 1, you would run:
+To run the solutions, you need to run the main file for any given day; i.e. to run the solution for day 01, you would run:
 
 ``` bash
 go run Day01/main.go

@@ -1,40 +1,38 @@
 package main
 
 import (
-	"errors"
 	"fmt"
-	"io"
-	"os"
 	"sort"
+	"strconv"
+
+	"github.com/RolloCasanova/AdventOfCode2022/utils/file"
 )
 
 func main() {
-	// open file to read
-	file, err := os.Open("./Day01/input.txt")
+	input, err := file.ToStringArray("./Day01/input.txt")
 	if err != nil {
 		panic(err)
 	}
 
-	// don't forget to close file
-	defer file.Close()
+	var (
+		calories []int
+		sum      int
+	)
 
-	var calories []int
-	var num, sum int
-
-	// read the file line by line, exit when EOF
-	for {
-		_, err := fmt.Fscanf(file, "%d", &num)
-		if err != nil {
-			if errors.Is(err, io.EOF) {
-				break
-			}
-
+	// read line by line, converting and adding values
+	for _, line := range input {
+		if line == "" {
 			calories = append(calories, sum)
 			sum = 0
 			continue
 		}
 
-		sum += num
+		val, err := strconv.Atoi(line)
+		if err != nil {
+			panic(err)
+		}
+
+		sum += val
 	}
 
 	// sort calories' slice
