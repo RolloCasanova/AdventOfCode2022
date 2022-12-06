@@ -8,12 +8,12 @@ This repository contains my solutions to the [Advent of Code 2022](https://adven
 
 | Challenge | Solution | Part 1 | Part 2 |
 | --- | :-: | :-: | :-: |
-| [Day 01: Calorie Counting](https://adventofcode.com/2022/day/1) | [Day01](Day01/main.go) | :star: | :star: |
-| [Day 02: Rock Paper Scissors](https://adventofcode.com/2022/day/2) | [Day02](Day02/main.go) | :star: | :star: |
-| [Day 03: Rucksack Reorganization](https://adventofcode.com/2022/day/3) | [Day03](Day03/main.go) | :star: | :star: |
+| [Day01: Calorie Counting](https://adventofcode.com/2022/day/1) | [Day01](Day01/main.go) | :star: | :star: |
+| [Day02: Rock Paper Scissors](https://adventofcode.com/2022/day/2) | [Day02](Day02/main.go) | :star: | :star: |
+| [Day03: Rucksack Reorganization](https://adventofcode.com/2022/day/3) | [Day03](Day03/main.go) | :star: | :star: |
 | [Day04: Camp Cleanup](https://adventofcode.com/2022/day/4) | [Day04](Day04/main.go) | :star: | :star: |
 | [Day05: Supply Stacks](https://adventofcode.com/2022/day/5) | [Day05](Day05/main.go) | :star: | :star: |
-
+| [Day06: Tuning Trouble](https://adventofcode.com/2022/day/6) | [Day06](Day06/main.go) | :star: | :star: |
 
 ## Usage
 
@@ -51,7 +51,7 @@ Answers are located in each of the challenges `DayXX.md` files located inside of
 ##@@@@@#@@#@###@#@@#@@@@@#@@@@#@@@@@@@#@@@#@@@@@#   9
 @@@#@@@@#@@@@@@#@@##@#@@@#@@#@@@##@#@@##@###@@@@@   8
 #@#@@##@@#@#@@@@#@@@@@@#@##@@@@@#@##@@@@@@@#@#@@@   7
-@#@##@#@##@@@@@@@@@@@@@#@@@#@@@@@@@#@@#@@@@###@##   6
+@@@@@#@#@@#@.~~.###@##@..@@#@@@@@@@#@##@###@@@@@@   6 **
 ###@@@@#@@@#@.~~.@@./\.'|@@@@@#@@#@@@##@@@@@##@#@   5 **
 @@@@@@##@@#.' ~  './\'./\' .#@@#@@#@@@@##@#@@##@#   4 **
 @#@@@@#@@_/ ~   ~  \ ' '. '.'.##@#@@##@@@#@@@@###   3 **
