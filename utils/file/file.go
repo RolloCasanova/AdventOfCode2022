@@ -44,3 +44,23 @@ func StringArrayToIntArray(input []string) ([]int, error) {
 
 	return result, nil
 }
+
+// StringArrayToIntArray converts an array of strings to an array of integers
+func StringArrayToIntMatrix(input []string) ([][]int, error) {
+	var result [][]int
+
+	for _, line := range input {
+		row := []int{}
+		for _, v := range line {
+			num, err := strconv.Atoi(string(v))
+			if err != nil {
+				return nil, err
+			}
+			row = append(row, num)
+		}
+
+		result = append(result, row)
+	}
+
+	return result, nil
+}
