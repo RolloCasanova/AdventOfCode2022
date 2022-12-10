@@ -19,6 +19,7 @@ No intention to use best practices, best algorithms, or best code. Just a fun wa
 | [Day07: No Space Left On Device](https://adventofcode.com/2022/day/7) | [Day07](Day07/main.go) | :star: | :star: |
 | [Day08: Treetop Tree House](https://adventofcode.com/2022/day/8) | [Day08](Day08/main.go) | :star: | :star: |
 | [Day09: Rope Bridge](https://adventofcode.com/2022/day/9) | [Day09](Day09/main.go) | :star: | :x: |
+| [Day 10: Cathode-Ray Tube](https://adventofcode.com/2022/day/10) | [Day10](Day10/main.go) | :star: | :star: |
 
 ## Usage
 
@@ -36,6 +37,8 @@ Answers are located in each of the challenges `DayXX.md` files located inside of
 
 ## Advent Of Code 2022 ASCII Art
 
+Sorry no color :c
+
 ``` nocode
 @@#@@@@@###@@@@@@#@#@@@#@@###@###@#@@@@##@@@@@@@#  25
 ##@#@#@@#@@##@@@@###@@#@@@@##@#@#@@#@@@@@##@##@#@  24
@@ -52,7 +55,7 @@ Answers are located in each of the challenges `DayXX.md` files located inside of
 @@@@#@###@@@@@#@@###@@@@@#@#@@@@##@#@@@@##@@@@@@@  13
 @@@@##@@@@#@@@@@#@@#@@###@@@@###@#@@#@@#@##@@@@@@  12
 #@@@@@#@@@@@#@@@#@##@@@@#@@@@#@##@@#@@#@@@@@##@#@  11
-@@@#@#@@##@@@@@@@#@#@@@#@@@#@@@@@@@@@@@@@@#@@#@@@  10
+@@#@@@#@##@.~~.@@@##@@@@#@@@@@@@#@@##@@@#@#@@@#@@  10 **
 @@#@.@@ _|%%%=%%|_ ##@@#@@#@@#@@@##@@@@###@@@@#@#   9 *
 #@@@#../  \.~~./  \.....@@@##@@@@@#@@@@@#@##@#@@@   8 **
 @##@@#@@@#@.~~.#@@#@@#@@.@@@@@#@@#@@@@@#@#@@@#@@#   7 **
